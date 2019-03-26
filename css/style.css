@@ -1,0 +1,95 @@
+/*----------------
+Mobile First Styles
+-----------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Merriweather', serif;
+}
+
+.wrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 2em;
+}
+
+h2 {
+  color: #2d3945;
+  text-align: center;
+}
+
+p {
+  color: #aaafb4;
+  text-align: center;
+}
+
+header {
+  background-color: #2d3945;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+
+input {
+  background-color: #eff0f1;
+  border: none;
+  border-radius: 3px;
+  padding: 20px;
+  margin-bottom: 2.5em;
+  width: 100%;
+}
+
+legend {
+  color: #2d3945;
+  font-size: 1.25em;
+  padding-bottom: 1.5em;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  font-size: .85em;
+  padding-bottom: .75em;
+  color: #6e7d8d;
+}
+
+select {
+  background-color: #eff0f1;
+  border: none;
+  border-radius: 3px;
+  padding: 20px;
+  margin-bottom: 2.5em;
+  width: 100%;
+}
+
+button {
+    width: 75%;
+    padding: 20px;
+    margin: auto;
+    background-color: #4ebbb5;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+}
+
+/*----------------
+ Desktop Styles
+-----------------*/
+
+@media (min-width: 768px) {
+
+
+
+}
